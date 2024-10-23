@@ -1,0 +1,830 @@
+{
+    "name": "Mono-Cart report",
+    "date": 1729678216738,
+    "dateH": "23/10/2024, 3:40:16 pm",
+    "duration": 29473,
+    "durationH": "29.5s",
+    "cwd": "E:/PlayWright_Practice",
+    "outputFile": "./test-results/report.html",
+    "outputDir": "./test-results",
+    "metadata": {
+        "actualWorkers": 1
+    },
+    "system": {
+        "cpu": {
+            "color": "#117DBB",
+            "count": 12,
+            "model": "12th Gen Intel(R) Core(TM) i5-1245U",
+            "speed": 2496
+        },
+        "mem": {
+            "color": "#8B12AE",
+            "total": 16849256448
+        },
+        "arch": "x64",
+        "platform": "win32",
+        "release": "10.0.22631",
+        "type": "Windows_NT",
+        "version": "Windows 10 Enterprise",
+        "uptime": 621269.609,
+        "hostname": "INHYNSBAMMIDI02",
+        "pid": 28040,
+        "node": "18.17.1",
+        "v8": "10.2.154.26-node.26",
+        "timestampStart": 1729678216738,
+        "ticks": [
+            {
+                "cpu": {
+                    "percent": 28.27
+                },
+                "mem": {
+                    "free": 1208930304
+                },
+                "timestamp": 1729678218769
+            },
+            {
+                "cpu": {
+                    "percent": 81.91
+                },
+                "mem": {
+                    "free": 615157760
+                },
+                "timestamp": 1729678220815
+            },
+            {
+                "cpu": {
+                    "percent": 22.05
+                },
+                "mem": {
+                    "free": 1032089600
+                },
+                "timestamp": 1729678222834
+            },
+            {
+                "cpu": {
+                    "percent": 67.64
+                },
+                "mem": {
+                    "free": 901595136
+                },
+                "timestamp": 1729678224953
+            },
+            {
+                "cpu": {
+                    "percent": 74.26
+                },
+                "mem": {
+                    "free": 901799936
+                },
+                "timestamp": 1729678226977
+            },
+            {
+                "cpu": {
+                    "percent": 26.21
+                },
+                "mem": {
+                    "free": 911302656
+                },
+                "timestamp": 1729678228993
+            },
+            {
+                "cpu": {
+                    "percent": 68.95
+                },
+                "mem": {
+                    "free": 850604032
+                },
+                "timestamp": 1729678231001
+            },
+            {
+                "cpu": {
+                    "percent": 29.56
+                },
+                "mem": {
+                    "free": 862072832
+                },
+                "timestamp": 1729678233010
+            },
+            {
+                "cpu": {
+                    "percent": 95.65
+                },
+                "mem": {
+                    "free": 759795712
+                },
+                "timestamp": 1729678235051
+            },
+            {
+                "cpu": {
+                    "percent": 56.16
+                },
+                "mem": {
+                    "free": 629207040
+                },
+                "timestamp": 1729678237132
+            },
+            {
+                "cpu": {
+                    "percent": 90.59
+                },
+                "mem": {
+                    "free": 609808384
+                },
+                "timestamp": 1729678239164
+            },
+            {
+                "cpu": {
+                    "percent": 99.74
+                },
+                "mem": {
+                    "free": 563986432
+                },
+                "timestamp": 1729678241184
+            },
+            {
+                "cpu": {
+                    "percent": 46.59
+                },
+                "mem": {
+                    "free": 604106752
+                },
+                "timestamp": 1729678243203
+            },
+            {
+                "cpu": {
+                    "percent": 46.81
+                },
+                "mem": {
+                    "free": 1191514112
+                },
+                "timestamp": 1729678245213
+            },
+            {
+                "cpu": {
+                    "percent": 70.41
+                },
+                "mem": {
+                    "free": 1212764160
+                },
+                "timestamp": 1729678246182
+            }
+        ],
+        "workers": 1,
+        "jobs": [
+            {
+                "caseId": "a821bfb5fe69a71aba8f",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1729678217987,
+                "duration": 26336
+            }
+        ],
+        "cwd": "E:/PlayWright_Practice",
+        "configFile": "playwright.config.ts",
+        "playwright": "1.48.0",
+        "monocart": "1.7.13",
+        "testDir": "test",
+        "outputFile": "test-results/report.html",
+        "outputDir": "test-results",
+        "timestampEnd": 1729678246211
+    },
+    "artifacts": [],
+    "trends": [],
+    "columns": [
+        {
+            "id": "caseType",
+            "name": "",
+            "width": 36,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconCaseType",
+            "detailed": false
+        },
+        {
+            "id": "title",
+            "name": "Title",
+            "searchable": true,
+            "width": 350,
+            "maxWidth": 1230,
+            "detailed": false
+        },
+        {
+            "id": "type",
+            "name": "Type",
+            "width": 50,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconType",
+            "detailed": false
+        },
+        {
+            "id": "duration",
+            "name": "Duration",
+            "align": "right",
+            "sortAsc": false,
+            "formatter": "duration",
+            "detailed": false
+        },
+        {
+            "id": "errors",
+            "name": "Errors",
+            "width": 60,
+            "align": "center",
+            "comparer": "errors",
+            "formatter": "errors",
+            "detailed": false
+        },
+        {
+            "id": "logs",
+            "name": "Logs",
+            "width": 60,
+            "align": "center",
+            "comparer": "logs",
+            "formatter": "logs",
+            "detailed": false
+        },
+        {
+            "id": "annotations",
+            "name": "Annotations",
+            "width": 100,
+            "markdown": true,
+            "searchable": true,
+            "comparer": "annotations",
+            "formatter": "annotations",
+            "detailed": false
+        },
+        {
+            "id": "attachments",
+            "name": "Attachments",
+            "width": 100,
+            "align": "center",
+            "formatter": "attachments",
+            "detailed": false
+        },
+        {
+            "id": "status",
+            "name": "Status",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "expectedStatus",
+            "name": "Expected",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "outcome",
+            "name": "Outcome",
+            "align": "center",
+            "width": 85,
+            "detailed": false
+        },
+        {
+            "id": "retry",
+            "name": "Retry",
+            "align": "center",
+            "width": 50,
+            "detailed": false
+        },
+        {
+            "id": "location",
+            "name": "Location",
+            "classMap": "mcr-location",
+            "width": 200,
+            "maxWidth": 1981,
+            "detailed": false
+        }
+    ],
+    "rows": [
+        {
+            "id": "bb195qg1wt5qwq72r56h",
+            "title": "chromium",
+            "type": "suite",
+            "suiteType": "project",
+            "caseNum": 1,
+            "subs": [
+                {
+                    "id": "9f585bbcf89d575cdfa6",
+                    "title": "AddToCart.spec.ts",
+                    "type": "suite",
+                    "suiteType": "file",
+                    "caseNum": 1,
+                    "subs": [
+                        {
+                            "id": "a821bfb5fe69a71aba8f",
+                            "title": "Add product to cart and vrify it.",
+                            "type": "case",
+                            "caseType": "passed",
+                            "ok": true,
+                            "outcome": "expected",
+                            "expectedStatus": "passed",
+                            "location": "test/AddToCart.spec.ts:4:5",
+                            "timestamps": [
+                                1729678217987,
+                                1729678244323
+                            ],
+                            "duration": 26336,
+                            "timeout": 150000,
+                            "retry": 0,
+                            "status": "passed",
+                            "stepNum": 44,
+                            "stepFailed": 0,
+                            "stepSubs": true,
+                            "subs": [
+                                {
+                                    "id": "jms9lxygfabf6pfawxvt",
+                                    "title": "Before Hooks",
+                                    "type": "step",
+                                    "stepType": "hook",
+                                    "duration": 3476,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "id": "4b4h84xgv1ews98dpw92",
+                                            "title": "fixture: browser",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 1544,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "ayka3tskqvs9o5wif0al",
+                                                    "title": "browserType.launch",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1536,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "7fee156o4zarkwa1rx4f",
+                                            "title": "fixture: context",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 38,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "rk2erd4nbvb46iba0kvk",
+                                                    "title": "browser.newContext",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 30,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "urekklm6k6oopx0s3d6f",
+                                            "title": "fixture: page",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 1867,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "co86zgst0wf2n909aoex",
+                                                    "title": "browserContext.newPage",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1862,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "80xz0pb0puypf87w2mkj",
+                                    "title": "page.goto(https://automationexercise.com/)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 4551,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:16:25"
+                                },
+                                {
+                                    "id": "bcbawlredblnj2uq15vm",
+                                    "title": "locator.click(a[href='/login'])",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 1712,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:17:72"
+                                },
+                                {
+                                    "id": "y3wpwtli4anqevgneyw1",
+                                    "title": "locator.fill(//input[@data-qa='login-email'])",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 177,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:18:73"
+                                },
+                                {
+                                    "id": "603dpvpmparomk9dng49",
+                                    "title": "locator.fill(//input[@data-qa='login-password'])",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 45,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:19:69"
+                                },
+                                {
+                                    "id": "fmh0549kz3d80rop9mb5",
+                                    "title": "page.waitForTimeout",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 1001,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:20:25"
+                                },
+                                {
+                                    "id": "nc4xaqq6tjxysrmpqgf8",
+                                    "title": "locator.click(//button[@data-qa='login-button'])",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 1162,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:21:66"
+                                },
+                                {
+                                    "id": "59dso15nn7bcfe38tee7",
+                                    "title": "page.waitForTimeout",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 1820,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:22:25"
+                                },
+                                {
+                                    "id": "ujx9npaqo9nq18kww361",
+                                    "title": "locator.getByRole('link', { name: ' Logout' }).isVisible",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 412,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:23:72"
+                                },
+                                {
+                                    "id": "flhesnxup7m1gr6jurzp",
+                                    "title": "expect.toBeTruthy",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 1,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:23:85"
+                                },
+                                {
+                                    "id": "3iz1yl7bhuvoln2ufqvc",
+                                    "title": "locator.getByText('Logged in as').isVisible",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 25,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:24:58"
+                                },
+                                {
+                                    "id": "b304ixz57b61q0epb12k",
+                                    "title": "expect.toBeTruthy",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 0,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:24:71"
+                                },
+                                {
+                                    "id": "f6p2qdmm9ow1cuqqea41",
+                                    "title": "locator.click(a[href='/products'])",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 524,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:54:69"
+                                },
+                                {
+                                    "id": "o5fcxx7o2t5m5f36hnh1",
+                                    "title": "locator.fill(#search_product)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 846,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:55:74"
+                                },
+                                {
+                                    "id": "gaabq50fw1rru37z1k27",
+                                    "title": "locator.click(#submit_search)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 3069,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:56:73"
+                                },
+                                {
+                                    "id": "savdylw64rvl8isp5tni",
+                                    "title": "locator.isVisible(//h2[@class='title text-center'])",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 212,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:58:84"
+                                },
+                                {
+                                    "id": "wlpa0n0vagvg2ai95vww",
+                                    "title": "expect.toBeTruthy",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 7,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:58:97"
+                                },
+                                {
+                                    "id": "3do01f2013iio4wagfur",
+                                    "title": "locator.scrollIntoViewIfNeeded(div:nth-child(9) > .product-image-wrapper > .choose > .nav > li > a)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 125,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:63:68"
+                                },
+                                {
+                                    "id": "jjg1jf262v3yqponj1re",
+                                    "title": "locator.click(div:nth-child(9) > .product-image-wrapper > .choose > .nav > li > a)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 968,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:64:72"
+                                },
+                                {
+                                    "id": "c9tekgnapkt7pz3eo674",
+                                    "title": "locator.click(button[type='button'])",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 574,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:65:70"
+                                },
+                                {
+                                    "id": "s9ct75dunsde8p4u0ll0",
+                                    "title": "page.waitForTimeout",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 808,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:66:25"
+                                },
+                                {
+                                    "id": "n2s5tjnu8pfm47x9m1xr",
+                                    "title": "locator.getByRole('heading', { name: 'Added!' }).isVisible",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 39,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:67:73"
+                                },
+                                {
+                                    "id": "xtgb85mjb5gmgl26ldwi",
+                                    "title": "expect.toBeTruthy",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 0,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:67:86"
+                                },
+                                {
+                                    "id": "mc2h3uztxxq75s3cpjpk",
+                                    "title": "locator.getByText('Your product has been added').isVisible",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 24,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:68:73"
+                                },
+                                {
+                                    "id": "jjpjw4htegtf2guifg6c",
+                                    "title": "expect.toBeTruthy",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 1,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:68:86"
+                                },
+                                {
+                                    "id": "hce5tm1j2saxb1xct7dc",
+                                    "title": "locator.getByRole('link', { name: 'View Cart' }).isVisible",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 25,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:69:73"
+                                },
+                                {
+                                    "id": "pjiscp4ye8kwqzgipvkq",
+                                    "title": "expect.toBeTruthy",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 1,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:69:86"
+                                },
+                                {
+                                    "id": "jfo2pn3510tsadoj8qgg",
+                                    "title": "locator.getByRole('button', { name: 'Continue Shopping' }).isVisible",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 27,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:70:83"
+                                },
+                                {
+                                    "id": "u1hd7hus9fgi42rz40g3",
+                                    "title": "expect.toBeTruthy",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 1,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:70:96"
+                                },
+                                {
+                                    "id": "jsemhmg3b1sd2lej5ybz",
+                                    "title": "locator.getByRole('link', { name: 'View Cart' }).click",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 611,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:71:66"
+                                },
+                                {
+                                    "id": "s4dowwofe2vcwa2dvpl1",
+                                    "title": "page.waitForTimeout",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 2817,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:72:25"
+                                },
+                                {
+                                    "id": "4c9b0gri2szdi02crzyr",
+                                    "title": "locator.getByRole('link', { name: 'Long Maxi Tulle Fancy Dress' }).isVisible",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 100,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:73:91"
+                                },
+                                {
+                                    "id": "ifwigj4j237ne0l3febb",
+                                    "title": "expect.toBeTruthy",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 0,
+                                    "location": "PageFactory/PageRepository/AutomationExercise.ts:73:104"
+                                },
+                                {
+                                    "id": "918d8ycc5jcaas6jmmew",
+                                    "title": "After Hooks",
+                                    "type": "step",
+                                    "stepType": "hook",
+                                    "duration": 919,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "id": "cnut4fqnh1kcvgsbft61",
+                                            "title": "fixture: page",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 0,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "hx5t3mf0nn8kdfj18gg1",
+                                            "title": "fixture: context",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 0,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "0x26ap30vj7ket6ribe1",
+                                            "title": "video.saveAs",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 20,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "b7mhr4x2n6sv3awvbgiw",
+                                            "title": "attach \"video\"",
+                                            "type": "step",
+                                            "stepType": "attach",
+                                            "duration": 1,
+                                            "location": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "attachments": [
+                                {
+                                    "name": "video",
+                                    "path": "AddToCart-Add-product-to-cart-and-vrify-it--chromium/video.webm",
+                                    "contentType": "video/webm",
+                                    "retry": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "location": "test/AddToCart.spec.ts:0:0"
+                }
+            ],
+            "metadata": {}
+        }
+    ],
+    "formatters": {},
+    "suiteTypes": [
+        "project",
+        "file",
+        "describe",
+        "shard"
+    ],
+    "caseTypes": [
+        "passed",
+        "flaky",
+        "skipped",
+        "failed"
+    ],
+    "traceViewerUrl": "https://trace.playwright.dev/?trace={traceUrl}",
+    "tags": {},
+    "summary": {
+        "tests": {
+            "name": "Tests",
+            "value": 1,
+            "nav": true,
+            "id": "tests"
+        },
+        "passed": {
+            "name": "Passed",
+            "value": 1,
+            "color": "green",
+            "nav": true,
+            "id": "passed",
+            "percent": "100.0%"
+        },
+        "flaky": {
+            "name": "Flaky",
+            "value": 0,
+            "color": "orange",
+            "nav": true,
+            "id": "flaky",
+            "percent": "0.0%"
+        },
+        "skipped": {
+            "name": "Skipped",
+            "value": 0,
+            "color": "gray",
+            "nav": true,
+            "id": "skipped",
+            "percent": "0.0%"
+        },
+        "failed": {
+            "name": "Failed",
+            "value": 0,
+            "color": "#d00",
+            "nav": true,
+            "id": "failed",
+            "percent": "0.0%"
+        },
+        "steps": {
+            "name": "Steps",
+            "value": 44,
+            "id": "steps"
+        },
+        "suites": {
+            "name": "Suites",
+            "value": 1,
+            "id": "suites"
+        },
+        "projects": {
+            "name": "Projects",
+            "description": "Suite type is project",
+            "value": 1,
+            "id": "projects"
+        },
+        "files": {
+            "name": "Files",
+            "description": "Suite type is file",
+            "value": 1,
+            "id": "files"
+        },
+        "describes": {
+            "name": "Describes",
+            "description": "Suite type is describe",
+            "value": 0,
+            "id": "describes"
+        },
+        "shards": {
+            "name": "Shards",
+            "description": "Suite type is shard (only in shading mode)",
+            "value": 0,
+            "id": "shards"
+        },
+        "retries": {
+            "name": "Retries",
+            "value": 0,
+            "id": "retries"
+        },
+        "errors": {
+            "name": "Errors",
+            "value": 0,
+            "id": "errors"
+        },
+        "logs": {
+            "name": "Logs",
+            "value": 0,
+            "id": "logs"
+        },
+        "attachments": {
+            "name": "Attachments",
+            "value": 1,
+            "id": "attachments"
+        }
+    },
+    "pieChart": {
+        "ns": "mcr-pie",
+        "width": 360,
+        "height": 150,
+        "margin": 10,
+        "svg": "<svg viewBox=\"0 0 360 150\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><g class=\"mcr-pie-path-passed\"><path d=\"M75,75 L75,10 A65,65 0 1 1 75,140 A65,65 0 1 1 75,10 z\" fill=\"green\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-flaky\"><path d=\"\" fill=\"orange\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-skipped\"><path d=\"\" fill=\"gray\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-failed\"><path d=\"\" fill=\"#d00\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g transform=\"translate(160 10)\"><g class=\"mcr-pie-legend-passed\" transform=\"translate(0 0)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"green\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Passed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">1</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">100.0%</text></g><g class=\"mcr-pie-legend-flaky\" transform=\"translate(0 32)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"orange\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Flaky</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-skipped\" transform=\"translate(0 64)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"gray\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Skipped</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-failed\" transform=\"translate(0 96)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"#d00\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Failed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g></g></svg>"
+    }
+}
