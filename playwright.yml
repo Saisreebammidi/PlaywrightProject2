@@ -1,0 +1,46 @@
+name: Playwright Tests (Windows)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+
+    steps:
+    # Checkout the code from the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Set up Node.js environment
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.17.1' # Use appropriate Node.js version
+
+    # Install dependencies
+    - name: Install Dependencies
+      run: npm install
+
+    # Install Playwright Browsers (Chromium, Firefox, WebKit)
+    - name: Install Playwright Browsers
+      run: npx playwright install
+
+    # Run Playwright Tests
+    - name: Run Playwright Tests
+      run: npm run Regression
+
+    # Generate Allure Reports (Optional)
+    - name: Generate Allure Report
+      run: |
+        allure generate allure-results --clean -o allure-report
+
+    # Upload Allure Report as Artifact (Optional)
+    - name: Upload Allure Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: allure-report
+        path: allure-report
