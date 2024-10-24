@@ -1,0 +1,39 @@
+Name,Test Script (Step-by-Step) - Step,Test Script (Step-by-Step) - Expected Result
+TC001-Login to the Website,Open website https://automationexercise.com/,Url must be opened successfully.
+,"Navigate and Click on ""Signup / Login""",Signup / Login button must be visibleible
+,Enter the Email and click on Tab,user must be able to add Email address sucessfully.
+,Enter the Password and click on Tab,user must be able to add Password sucessfully.
+,Click on Login Button,The login Button Must be visible and the user must be able to click on login button
+,Verify the page is loaded successfully,Page must  be loaded with the login details and Home page must be loaded successfully
+,verify the text Logged as successfully with the username ,Logged as with the username must be visible.
+,,
+TC002-Fill the Contact Us registration page,After logging as a registered user successfully click on Contact Us button,User must be logged successfully and contact us button must be visible and user must be able to click it
+,"Enter data into ""Name""",user must be able to add name
+,"Enter email id into ""Email""",user must be able to add password
+,"Enter some text into ""Subject""",user must be able to enter subject
+,"Click on ""Your Message Here""",user must be able to add message
+,"Enter text data into ""Your Message Here""",user must be able to add message
+,"Click on ""upload_file""",user must be able to add sample file
+,"Enter some file into ""upload_file""",file must be uploaded successfully
+,Scroll down,page refresh must be done
+,"Click on ""submit""",contact form details must be sumitted successfully.
+,"Verify text ""Note: Below contact form is for testing purpose. Get In Touch Success! Your details """,Note: Below contact form is for testing purpose. Get In Touch Success! Your details must be visible successfully
+,verify Home button is visible,Home button must be visible
+,Click ok Home button,user msut be able to redirect to home screen
+,,
+TC003-Search Item in the website,After logging as a registered user successfully click on ,User must be logged successfully 
+,"Click on ""Products"" icon",user must be able click on products icon
+,Scroll down,page refresh must be done
+,"Enter product name into ""Search Product"" to search",user must be able to enter the details
+,"Click on ""search icon""",search ison must be visible and user must be able to click on it
+,wait for the page to load ,all the products related to the search criteria must be loaded successfully.
+,verify the products loaded successfully.,user must be able see the loaded products 
+,,
+TC004-Add item to cart in the website,After successful search of the product,user must be able see the loaded products 
+,Scroll down and add third last product to Cart,scroll must be done and products must be loaded accurately and click on add 
+,"Click on ""Add to cart""",user must be able to view add to cart button and click on it
+,"verify the popup and text ""Added!""",Pop up must be displayed and verify the added text
+,"Verify  "" Added! Your product has been added to cart. """,user must be able to view the message
+,"Click on ""View Cart""",View cart button must be visible and user must be able to click on it.
+,Scroll down,user must be able to scroll down and details must be loaded
+,verify the product added to cart successfully.,The product must be added to the cart successfully.
